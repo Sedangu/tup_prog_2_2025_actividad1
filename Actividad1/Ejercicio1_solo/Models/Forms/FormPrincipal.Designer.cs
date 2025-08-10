@@ -45,6 +45,7 @@
             // 
             // Tbx_Descripcion
             // 
+            this.Tbx_Descripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tbx_Descripcion.Location = new System.Drawing.Point(12, 12);
             this.Tbx_Descripcion.Multiline = true;
             this.Tbx_Descripcion.Name = "Tbx_Descripcion";

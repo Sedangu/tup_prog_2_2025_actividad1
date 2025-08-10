@@ -46,8 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Class\Cilindro.cs" />
+    <Compile Include="Models\Class\Circulo.cs" />
+    <Compile Include="Models\Class\Cuadrado.cs" />
+    <Compile Include="Models\Class\Cubo.cs" />
     <Compile Include="Models\Class\Ortoedro.cs" />
     <Compile Include="Models\Class\Rectangulo.cs" />
+    <Compile Include="Models\Class\RectanguloDesarrollado.cs" />
     <Compile Include="Models\Forms\FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

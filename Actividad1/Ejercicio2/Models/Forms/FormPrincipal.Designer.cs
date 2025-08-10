@@ -28,13 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.Tbx_Descripcion = new System.Windows.Forms.TextBox();
+            this.Btn_ConsDescObj = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Tbx_Descripcion
+            // 
+            this.Tbx_Descripcion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_Descripcion.Location = new System.Drawing.Point(14, 14);
+            this.Tbx_Descripcion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Tbx_Descripcion.Multiline = true;
+            this.Tbx_Descripcion.Name = "Tbx_Descripcion";
+            this.Tbx_Descripcion.Size = new System.Drawing.Size(583, 642);
+            this.Tbx_Descripcion.TabIndex = 3;
+            // 
+            // Btn_ConsDescObj
+            // 
+            this.Btn_ConsDescObj.Location = new System.Drawing.Point(610, 289);
+            this.Btn_ConsDescObj.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.Btn_ConsDescObj.Name = "Btn_ConsDescObj";
+            this.Btn_ConsDescObj.Size = new System.Drawing.Size(219, 79);
+            this.Btn_ConsDescObj.TabIndex = 2;
+            this.Btn_ConsDescObj.Text = "&Construir y Describir Objetos";
+            this.Btn_ConsDescObj.UseVisualStyleBackColor = true;
+            this.Btn_ConsDescObj.Click += new System.EventHandler(this.Btn_ConsDescObj_Click);
+            // 
+            // FormPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(840, 670);
+            this.Controls.Add(this.Tbx_Descripcion);
+            this.Controls.Add(this.Btn_ConsDescObj);
+            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Name = "FormPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Figuras Geométricas - Ejercicio2";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox Tbx_Descripcion;
+        private System.Windows.Forms.Button Btn_ConsDescObj;
     }
 }
 
