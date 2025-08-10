@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1_solo", "Ejercicio1_solo\Ejercicio1_solo.csproj", "{B49475A7-AE43-41E8-9E0B-BF196CA9D8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2", "Ejercicio2\Ejercicio2.csproj", "{ABB45E2C-2C62-485B-B75D-51E41763C605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B49475A7-AE43-41E8-9E0B-BF196CA9D8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B49475A7-AE43-41E8-9E0B-BF196CA9D8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B49475A7-AE43-41E8-9E0B-BF196CA9D8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB45E2C-2C62-485B-B75D-51E41763C605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB45E2C-2C62-485B-B75D-51E41763C605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB45E2C-2C62-485B-B75D-51E41763C605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB45E2C-2C62-485B-B75D-51E41763C605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
